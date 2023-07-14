@@ -1,4 +1,4 @@
-import logo from "@/utils/icons/svg/logo.svg";
+import logo from "@/../public/svg/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Dropdown from "./Dropdown";
