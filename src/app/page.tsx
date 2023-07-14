@@ -10,6 +10,7 @@ export default function Home() {
       <Block />
       <div className="h-50"></div>
       <FeaturesCard />
+      <div className="h-50"></div>
     </>
   );
 }
