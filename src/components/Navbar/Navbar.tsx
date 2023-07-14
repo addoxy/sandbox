@@ -6,7 +6,7 @@ import Dropdown from "./Dropdown";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between px-5 pt-4 md:px-6 lg:px-16">
+      <div className="flex items-center justify-between px-4 pt-4 sm:px-5 md:px-6 lg:px-16">
         <Link href="/" className="flex items-center">
           <Image src={logo} alt="swibble" className="mr-2" />
           <span className="text-xl font-medium text-blue-500">Learnex</span>
