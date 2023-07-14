@@ -5,7 +5,7 @@ import { Balancer } from "react-wrap-balancer";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-between lg:flex-row">
+      <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
         <div className="order-2 mt-4 flex flex-col sm:w-120 lg:order-1 lg:w-108 lg:px-0 lg:text-left xl:w-140">
           <p className="mb-8 text-2xl font-bold text-neutral-700 sm:text-3xl lg:text-4xl xl:text-5xl">
             <Balancer>
