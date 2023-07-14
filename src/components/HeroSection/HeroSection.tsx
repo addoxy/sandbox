@@ -1,5 +1,6 @@
 import CourseCard from "../Cards/CourseCard/CourseCard";
 import Link from "next/link";
+import { Balancer } from "react-wrap-balancer";
 
 const HeroSection = () => {
   return (
@@ -7,13 +8,17 @@ const HeroSection = () => {
       <div className="flex flex-col items-center justify-between lg:flex-row">
         <div className="order-2 mt-4 flex flex-col sm:w-120 lg:order-1 lg:w-108 lg:px-0 lg:text-left xl:w-140">
           <p className="mb-8 text-2xl font-bold text-neutral-700 sm:text-3xl lg:text-4xl xl:text-5xl">
-            The best courses at the most
-            <span className="text-gradient"> affordable prices</span>
+            <Balancer>
+              The best courses at the most
+              <span className="text-gradient"> affordable prices</span>
+            </Balancer>
           </p>
           <p className="mb-22 text-base font-normal text-neutral-500 sm:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            sint dicta aliquam ab! Vero laborum, perspiciatis minus illo eum
-            consequatur
+            <Balancer>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              sint dicta aliquam ab! Vero laborum, perspiciatis minus illo eum
+              consequatur
+            </Balancer>
           </p>
           <div>
             <button className="mr-12 rounded-lg bg-blue-500 px-18 py-4 text-lg font-medium text-white shadow-xl hover:bg-blue-600">

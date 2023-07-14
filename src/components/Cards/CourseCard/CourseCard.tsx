@@ -3,6 +3,7 @@ import LockIcon from "@/utils/icons/tsx/LockIcon";
 import man from "@/utils/images/jpegs/man.jpeg";
 import Image from "next/image";
 import SelectMenu from "./SelectMenu";
+import { Balancer } from "react-wrap-balancer";
 
 const CourseCard = () => {
   return (
@@ -28,7 +29,9 @@ const CourseCard = () => {
                     Anthony Hill
                   </span>
                   <p className="w-40 text-sm text-neutral-400">
-                    Hello I&apos;m Anthony and I am a placement expert.
+                    <Balancer>
+                      Hello I&apos;m Anthony and I am a placement expert.
+                    </Balancer>
                   </p>
                 </div>
               </div>
