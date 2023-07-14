@@ -5,7 +5,7 @@ const FeaturesCard = () => {
   return (
     <div className="flex justify-center">
       <div className="grid max-w-md grid-cols-none grid-rows-3 rounded-2xl border border-neutral-200 md:w-fit lg:h-fit lg:w-full lg:max-w-none lg:grid-cols-3 lg:grid-rows-none">
-        <div className="flex h-full flex-col items-center justify-center border-b border-neutral-200 lg:border-b-0 lg:border-r">
+        <div className="flex h-full flex-col items-center justify-center border-b border-neutral-200 py-2 lg:border-b-0 lg:border-r">
           <div className="flex p-8">
             <IconContainer icon="bi:laptop-fill" className="mr-6" />
             <div className="flex flex-col">
@@ -33,7 +33,7 @@ const FeaturesCard = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-full flex-col items-center justify-center border-b border-neutral-200 lg:border-b-0 lg:border-r">
+        <div className="flex h-full flex-col items-center justify-center border-b border-neutral-200 py-2 lg:border-b-0 lg:border-r">
           <div className="flex p-8">
             <IconContainer icon="fa6-solid:user-graduate" className="mr-6" />
             <div className="flex flex-col">
@@ -61,7 +61,7 @@ const FeaturesCard = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-full flex-col items-center justify-center border-neutral-200 ">
+        <div className="flex h-full flex-col items-center justify-center border-neutral-200 py-2 ">
           <div className="flex p-8">
             <IconContainer
               icon="fa-solid:chalkboard-teacher"
