@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-gradient-1 {
+  bbackground: rgb(59, 130, 246);
+  background: linear-gradient(
+    111deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(139, 92, 246, 1) 35%,
+    rgba(34, 211, 238, 1) 100%
+  );
+}
+
+.text-gradient {
+  background: #3b82f6;
+  background: linear-gradient(to right, #3b82f6 10%, #a855f7 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-1 {
+  background-color: #3b82f6;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232563eb' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
