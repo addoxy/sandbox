@@ -7,7 +7,7 @@ import SelectMenu from "./SelectMenu";
 const CourseCard = () => {
   return (
     <>
-      <div className="card-gradient-1 flex h-96 w-108 justify-center rounded-3xl bg-black">
+      <div className="card-gradient-1 flex h-96 w-108 scale-[0.95] justify-center rounded-3xl bg-black xl:scale-[1]">
         <div className="relative top-14 flex h-96 w-80 flex-col items-center rounded-3xl bg-white px-6 py-6 drop-shadow-2xl">
           <div className="flex h-full flex-col justify-between">
             <div>
@@ -25,10 +25,10 @@ const CourseCard = () => {
                 />
                 <div className="flex flex-col">
                   <span className="mb-1 text-lg font-medium text-neutral-500">
-                    John Doe
+                    Anthony Hill
                   </span>
-                  <p className="text-sm text-neutral-400">
-                    Hello I&apos;m John and I am a placement expert.
+                  <p className="w-40 text-sm text-neutral-400">
+                    Hello I&apos;m Anthony and I am a placement expert.
                   </p>
                 </div>
               </div>
