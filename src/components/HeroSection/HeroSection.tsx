@@ -16,7 +16,7 @@ const HeroSection = () => {
             consequatur
           </p>
           <div>
-            <button className="mr-8 rounded-lg bg-blue-500 px-18 py-4 text-lg font-medium text-white shadow-xl hover:bg-blue-600 sm:mr-12">
+            <button className="mr-8 rounded-lg bg-blue-500 px-14 py-4 text-lg font-medium text-white shadow-xl hover:bg-blue-600 sm:mr-12 sm:px-18">
               Sign Up
             </button>
             <Link
@@ -27,9 +27,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="order-1 mb-30 lg:order-2 lg:mb-0">
-          <CourseCard />
-        </div>
+        <CourseCard className="order-1 mb-16 lg:order-2 lg:mb-0" />
       </div>
     </>
   );

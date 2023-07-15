@@ -5,10 +5,12 @@ import Image from "next/image";
 import SelectMenu from "./SelectMenu";
 import { Balancer } from "react-wrap-balancer";
 
-const CourseCard = () => {
+const CourseCard = (props: { className: string }) => {
   return (
     <>
-      <div className="card-gradient-1 flex h-96 w-108 scale-[0.75] justify-center rounded-3xl bg-black sm:scale-[0.95] xl:scale-[1]">
+      <div
+        className={`card-gradient-1 flex h-96 w-108 scale-[0.75] justify-center rounded-3xl bg-black sm:scale-[0.95] xl:scale-[1] ${props.className}`}
+      >
         <div className="relative top-14 flex h-96 w-80 flex-col items-center rounded-3xl bg-white px-6 py-6 drop-shadow-2xl">
           <div className="flex h-full flex-col justify-between">
             <div>

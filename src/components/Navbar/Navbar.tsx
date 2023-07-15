@@ -39,7 +39,7 @@ const Navbar = () => {
         </nav>
         <div className="flex">
           <Link href="/">
-            <button className="mr-5 h-12 w-36 rounded-xl bg-blue-500 font-medium text-white shadow-xl hover:bg-blue-600">
+            <button className="mr-5 h-12 w-30 rounded-xl bg-blue-500 font-medium text-white shadow-xl hover:bg-blue-600 sm:h-12 sm:w-36">
               Login
             </button>
           </Link>
