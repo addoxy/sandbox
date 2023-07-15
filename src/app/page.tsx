@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <div className="h-50"></div>
+      <div className="h-50 w-full"></div>
       <Block />
-      <div className="h-50"></div>
+      <div className="h-50 w-full"></div>
       <FeaturesCard />
-      <div className="h-50"></div>
+      <div className="h-50 w-full"></div>
     </>
   );
 }
