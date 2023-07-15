@@ -1,4 +1,4 @@
-import CourseCard from "../Cards/CourseCard/CourseCard";
+import CourseCard from "@/components/Cards/CourseCard/CourseCard";
 import Link from "next/link";
 
 const HeroSection = () => {

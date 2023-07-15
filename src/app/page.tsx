@@ -1,4 +1,5 @@
-import HeroSection from "@/components/HeroSection/HeroSection";
+import HeroSection from "@/components/Sections/HeroSection";
+import TestimonialSection from "@/components/Sections/TestimonialSection";
 import Block from "@/components/Blocks/Block";
 import FeaturesCard from "@/components/Cards/FeaturesCard/FeaturesCard";
 
@@ -18,6 +19,8 @@ export default function Home() {
         Testimonials from people who{" "}
         <span className="text-gradient"> love us</span>
       </span>
+      <TestimonialSection />
+      <div className="h-30 w-full sm:h-50"></div>
     </>
   );
 }
