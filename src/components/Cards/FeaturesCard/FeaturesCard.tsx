@@ -4,7 +4,7 @@ import { Balancer } from "react-wrap-balancer";
 const FeaturesCard = () => {
   return (
     <div className="flex justify-center">
-      <div className="grid max-w-md grid-cols-none grid-rows-3 rounded-2xl border border-neutral-200 lg:h-fit lg:w-full lg:max-w-none lg:grid-cols-3 lg:grid-rows-none">
+      <div className="grid max-w-md grid-cols-none grid-rows-3 rounded-2xl border border-neutral-200 bg-white lg:h-fit lg:w-full lg:max-w-none lg:grid-cols-3 lg:grid-rows-none">
         <div className="flex h-full flex-col items-center justify-center border-b border-neutral-200 py-2 lg:border-b-0 lg:border-r">
           <div className="flex p-8">
             <IconContainer icon="bi:laptop-fill" className="mr-6" />

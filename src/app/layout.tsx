@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} debug-screens`}>
+      <body className={`${inter.className} debug-screens bg-neutral-50`}>
         <Navbar />
         <div className="px-4 sm:px-20 xl:px-32">
           <div className="h-10 lg:h-36"></div>
