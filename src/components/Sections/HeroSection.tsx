@@ -27,7 +27,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <CourseCard className="order-1 mb-16 lg:order-2 lg:mb-0" />
+        <CourseCard className="order-1 mb-16 md:mb-32 lg:order-2 lg:mb-0" />
       </div>
     </>
   );
