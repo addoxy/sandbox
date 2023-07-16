@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} debug-screens bg-neutral-50`}>
         <Navbar />
-        <div className="h-10 lg:h-36"></div>
         <div className="px-4 sm:px-20 xl:px-32">{children}</div>
         <div className="h-30 w-full sm:h-50"></div>
         <Footer />

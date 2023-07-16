@@ -1,4 +1,4 @@
-import CourseCard from "@/components/Cards/CourseCard/CourseCard";
+import HeroImage from "@/components/HeroImage/HeroImage";
 import Link from "next/link";
 
 const HeroSection = () => {
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <CourseCard className="order-1 mb-16 md:mb-32 lg:order-2 lg:mb-0" />
+        <HeroImage className="order-1 mb-16 md:mb-32 lg:order-2 lg:mb-0" />
       </div>
     </>
   );

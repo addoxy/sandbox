@@ -1,13 +1,14 @@
-import HeroSection from "@/components/Sections/HeroSection";
-import TestimonialSection from "@/components/Sections/TestimonialSection";
+import Hero from "@/components/Sections/Hero";
+import Testimonials from "@/components/Sections/Testimonials";
 import { PoweredBlock } from "@/components/Blocks/Blocks";
 import { StartedBlock } from "@/components/Blocks/Blocks";
-import FeaturesCard from "@/components/Cards/FeaturesCard/FeaturesCard";
+import Features from "@/components/Cards/Features/Features";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <div className="h-10 lg:h-36"></div>
+      <Hero />
       <div className="h-30 w-full sm:h-50"></div>
       <PoweredBlock />
       <div className="h-30 w-full sm:h-50"></div>
@@ -17,7 +18,7 @@ export default function Home() {
       >
         Features that make us <span className="text-gradient"> stand out</span>
       </span>
-      <FeaturesCard />
+      <Features />
       <div className="h-30 w-full sm:h-50"></div>
       <StartedBlock />
       <div className="h-30 w-full sm:h-50"></div>
@@ -28,7 +29,7 @@ export default function Home() {
         Testimonials from people who{" "}
         <span className="text-gradient"> love us</span>
       </span>
-      <TestimonialSection />
+      <Testimonials />
     </>
   );
 }
