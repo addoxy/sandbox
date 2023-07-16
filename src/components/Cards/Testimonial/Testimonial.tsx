@@ -1,5 +1,5 @@
 import Image from "next/image";
-import woman from "@/../public/images/woman.jpeg";
+import woman from "@/../public/images/woman.jpg";
 
 const Testimonial = (props: { content: string }) => {
   return (

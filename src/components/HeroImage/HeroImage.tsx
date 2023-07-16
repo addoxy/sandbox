@@ -1,6 +1,6 @@
 import Link from "next/link";
 import LockIcon from "@/utils/icons/tsx/LockIcon";
-import man from "@/../public/images/man.jpeg";
+import man from "@/../public/images/man.jpg";
 import Image from "next/image";
 import SelectMenu from "./SelectMenu";
 import { Balancer } from "react-wrap-balancer";
