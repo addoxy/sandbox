@@ -27,12 +27,68 @@ const Browse = () => {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, molestiae!",
     },
+    {
+      src: os,
+      name: "Operating Systems",
+      price: "$100",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore.",
+    },
+    {
+      src: webdev,
+      name: "Web Development",
+      price: "$500",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore repellendus molestiae.",
+    },
+    {
+      src: design,
+      name: "UI / UX",
+      price: "$200",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, molestiae!",
+    },
+    {
+      src: os,
+      name: "Operating Systems",
+      price: "$100",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore.",
+    },
+    {
+      src: webdev,
+      name: "Web Development",
+      price: "$500",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore repellendus molestiae.",
+    },
+    {
+      src: design,
+      name: "UI / UX",
+      price: "$200",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, molestiae!",
+    },
+    {
+      src: os,
+      name: "Operating Systems",
+      price: "$100",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore.",
+    },
+    {
+      src: webdev,
+      name: "Web Development",
+      price: "$500",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium harum dolorem error tempore repellendus molestiae.",
+    },
   ];
 
   return (
     <>
-      <div className="w-ful h-20"></div>
-      <div className="grid grid-flow-col">
+      <div className="h-10 w-full sm:h-20"></div>
+      <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 md:gap-x-12 md:gap-y-0 lg:grid-cols-3 lg:gap-x-16 lg:gap-y-0 xl:gap-y-10">
         {courses.map((course) => (
           <Course
             key={uuidv4()}

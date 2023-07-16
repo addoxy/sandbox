@@ -8,7 +8,7 @@ const Course = (props: {
 }) => {
   return (
     <>
-      <div className="h-125 w-88 rounded-3xl bg-white shadow-xl">
+      <div className="h-125 w-88 scale-[0.9] rounded-3xl bg-white shadow-xl sm:scale-[0.9] lg:scale-[0.85] xl:scale-[1]">
         <div className="h-2/5 w-full overflow-clip">
           <Image
             loading="lazy"
