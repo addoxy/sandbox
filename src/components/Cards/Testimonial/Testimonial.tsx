@@ -8,6 +8,7 @@ const Testimonial = (props: { content: string }) => {
         <p className="mb-6 text-neutral-600">{props.content}</p>
         <div className="flex">
           <Image
+            loading="lazy"
             src={woman}
             alt="woman"
             className="mr-4 h-10 w-10 rounded-full"

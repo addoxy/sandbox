@@ -22,6 +22,7 @@ const CourseCard = (props: { className: string }) => {
               </div>
               <div className="mb-12 flex">
                 <Image
+                  loading="lazy"
                   src={man}
                   alt="John Doe"
                   className="mr-6 h-16 w-16 rounded-full"

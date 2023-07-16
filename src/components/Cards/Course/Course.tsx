@@ -10,7 +10,12 @@ const Course = (props: {
     <>
       <div className="h-125 w-88 rounded-3xl bg-white shadow-xl">
         <div className="h-2/5 w-full overflow-clip">
-          <Image src={props.src} alt="" className="rounded-t-3xl" />
+          <Image
+            loading="lazy"
+            src={props.src}
+            alt=""
+            className="rounded-t-3xl"
+          />
         </div>
         <div className="flex h-3/5 flex-col justify-between px-8 py-8">
           <div>
