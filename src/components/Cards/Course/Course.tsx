@@ -8,7 +8,7 @@ const Course = (props: {
 }) => {
   return (
     <>
-      <div className="h-125 w-88 scale-[0.9] rounded-3xl bg-white shadow-xl sm:scale-[0.9] lg:scale-[0.85] xl:scale-[1]">
+      <div className="h-125 w-88 scale-[0.9] rounded-3xl border border-neutral-200 bg-white shadow-xl sm:scale-[0.9] lg:scale-[0.85] xl:scale-[1]">
         <div className="h-2/5 w-full overflow-clip">
           <Image
             loading="lazy"
@@ -25,7 +25,7 @@ const Course = (props: {
             <p className="font-semibold text-neutral-500">{props.price}</p>
           </div>
           <p className="mb-4 text-neutral-500">{props.description}</p>
-          <button className="h-11 w-full rounded-md bg-blue-500 font-medium text-white hover:bg-blue-600">
+          <button className="h-11 w-full rounded-xl bg-blue-500 font-medium text-white shadow-lg hover:bg-blue-600">
             Buy
           </button>
         </div>
