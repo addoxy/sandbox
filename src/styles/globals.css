@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .card-gradient-1 {
   bbackground: rgb(59, 130, 246);
   background: linear-gradient(

@@ -4,6 +4,13 @@ import Link from "next/link";
 import Dropdown from "./Dropdown";
 
 const Navbar = () => {
+  const navItems = [
+    { name: "Home", link: "/" },
+    { name: "Browse", link: "/browse" },
+    { name: "Features", link: "#features" },
+    { name: "Testimonials", link: "#testimonials" },
+  ];
+
   return (
     <>
       <div className="flex items-center justify-between px-4 pt-4 sm:px-5 md:px-6 lg:px-16">
@@ -12,30 +19,14 @@ const Navbar = () => {
           <span className="text-xl font-medium text-blue-500">Learnex</span>
         </Link>
         <nav className="hidden w-100 justify-between font-medium text-neutral-700 md:flex">
-          <Link
-            href="/"
-            className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
-          >
-            Home
-          </Link>
-          <Link
-            href="/"
-            className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
-          >
-            Browse
-          </Link>
-          <Link
-            href="/"
-            className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
-          >
-            Features
-          </Link>
-          <Link
-            href="/"
-            className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
-          >
-            Testimonials
-          </Link>
+          {navItems.map((navItem) => (
+            <Link
+              href={navItem.link}
+              className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
+            >
+              {navItem.name}
+            </Link>
+          ))}
         </nav>
         <div className="flex">
           <Link href="/">

@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <>
       <div className="flex h-60 flex-col items-center justify-center border-t border-neutral-200">
-        <div className="mb-4 flex items-center">
-          <Image src={logo} alt="logo" className="mr-2" />
+        <Link href="/" className="mb-4 flex items-center">
+          <Image src={logo} alt="swibble" className="mr-2" />
           <span className="text-xl font-medium text-blue-500">Learnex</span>
-        </div>
+        </Link>
         <span className="mb-8 text-sm text-neutral-400">
           © 2023 Addoxy . All rights reserved.
         </span>
@@ -21,7 +21,7 @@ const Footer = () => {
             Home
           </Link>
           <Link
-            href="/"
+            href="/browse"
             className="rounded-md p-2 text-sm text-neutral-500 hover:bg-neutral-100"
           >
             Browse
