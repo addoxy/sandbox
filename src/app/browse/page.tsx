@@ -2,6 +2,7 @@ import Course from "@/components/Cards/Course/Course";
 import os from "@/../public/images/os.jpg";
 import webdev from "@/../public/images/webdev.jpg";
 import design from "@/../public/images/design.jpg";
+import { v4 as uuidv4 } from "uuid";
 
 const Browse = () => {
   const courses = [
@@ -31,9 +32,10 @@ const Browse = () => {
   return (
     <>
       <div className="w-ful h-20"></div>
-      <div className="grid grid-cols-3 gap-x-10">
+      <div className="grid grid-flow-col">
         {courses.map((course) => (
           <Course
+            key={uuidv4()}
             src={course.src}
             name={course.name}
             price={course.price}

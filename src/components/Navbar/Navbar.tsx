@@ -2,6 +2,7 @@ import logo from "@/../public/svg/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Dropdown from "./Dropdown";
+import { v4 as uuidv4 } from "uuid";
 
 const Navbar = () => {
   const navItems = [
@@ -21,6 +22,7 @@ const Navbar = () => {
         <nav className="hidden w-100 justify-between font-medium text-neutral-700 md:flex">
           {navItems.map((navItem) => (
             <Link
+              key={uuidv4()}
               href={navItem.link}
               className="pointer flex cursor-pointer items-center justify-center rounded-lg px-3 py-2 hover:bg-neutral-100"
             >
