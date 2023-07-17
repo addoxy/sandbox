@@ -1,4 +1,4 @@
-import logo from "@/../public/svg/logo.svg";
+import swibble from "@/../public/svg/swibble.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Dropdown from "./Dropdown";
@@ -16,8 +16,8 @@ const Navbar = () => {
     <>
       <div className="flex items-center justify-between px-4 pt-4 sm:px-5 md:px-6 lg:px-16">
         <Link href="/" className="flex items-center">
-          <Image src={logo} alt="swibble" className="mr-2" />
-          <span className="text-xl font-medium text-blue-500">Learnex</span>
+          <Image src={swibble} alt="swibble" className="mr-2" />
+          <span className="text-xl font-medium text-blue-500">Sandbox</span>
         </Link>
         <nav className="hidden w-100 justify-between font-medium text-neutral-700 md:flex">
           {navItems.map((navItem) => (
