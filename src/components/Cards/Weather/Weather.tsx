@@ -10,9 +10,9 @@ async function getWeather(location: string) {
 
 const Weather = async (props: { location: string }) => {
   const currentWeather = await getWeather(props.location.trim());
-  const temperature = currentWeather.current.temp_c || "";
-  const region = currentWeather.location.region || "";
-  const country = currentWeather.location.country || "";
+  const temperature = currentWeather.current.temp_c || " ";
+  const region = currentWeather.location.region || " ";
+  const country = currentWeather.location.country || " ";
 
   return (
     <>
