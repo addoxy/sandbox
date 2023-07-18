@@ -1,17 +1,7 @@
 import SunIcon from "@/utils/icons/tsx/SunIcon";
 import LocationInput from "./LocationInput";
 
-interface WeatherObject {
-  current: {
-    temp_c: string;
-  };
-  location: {
-    region: string;
-    country: string;
-  };
-}
-
-async function getWeather(location: string): Promise<WeatherObject> {
+async function getWeather(location: string) {
   const currentWeather = await fetch(
     `http://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_KEY}&q=${location}`
   );
