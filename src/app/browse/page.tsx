@@ -1,8 +1,9 @@
 import Course from "@/components/Cards/Course/Course";
+import Weather from "@/components/Cards/Weather/Weather";
 import { courses } from "./data";
 import { v4 as uuidv4 } from "uuid";
 
-const Browse = () => {
+const Browse = async () => {
   return (
     <>
       <div className="h-10 w-full sm:h-20"></div>
@@ -11,6 +12,8 @@ const Browse = () => {
           <Course key={uuidv4()} {...course} />
         ))}
       </div>
+      <div className="h-20"></div>
+      <Weather />
     </>
   );
 };
