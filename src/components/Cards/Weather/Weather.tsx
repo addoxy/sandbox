@@ -19,15 +19,13 @@ const Weather = async (props: { location: string }) => {
           <div className="flex flex-col">
             <p className="mb-3 text-5xl text-neutral-700">
               {currentWeather.current.temp_c
-                ? currentWeather.current.temp_c
+                ? currentWeather.current.temp_c + "°C"
                 : ""}
-              °C
             </p>
             <p className="text-sm text-neutral-600">
               {currentWeather.location.region
-                ? currentWeather.location.region
+                ? currentWeather.location.region + ", "
                 : ""}
-              ,{" "}
               {currentWeather.location.region
                 ? currentWeather.location.country
                 : ""}
