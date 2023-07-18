@@ -13,7 +13,7 @@ const Browse = async () => {
         ))}
       </div>
       <div className="h-20"></div>
-      <Weather />
+      <Weather location="New Delhi" />
     </>
   );
 };
