@@ -1,5 +1,4 @@
 import Course from "@/components/Cards/Course/Course";
-import Weather from "@/components/Cards/Weather/Weather";
 import { courses } from "./data";
 import { v4 as uuidv4 } from "uuid";
 
@@ -13,7 +12,6 @@ const Browse = async () => {
         ))}
       </div>
       <div className="h-20"></div>
-      <Weather location="New Delhi" />
     </>
   );
 };
