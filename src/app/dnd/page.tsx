@@ -50,7 +50,7 @@ const Draggable = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div
-      className="h-12 w-20 bg-violet-500"
+      className="h-12 w-20 bg-violet-600"
       ref={setNodeRef}
       style={style}
       {...listeners}
