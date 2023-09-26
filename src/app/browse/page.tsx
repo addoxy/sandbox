@@ -2,7 +2,7 @@ import Course from "@/components/Cards/Course/Course";
 import { courses } from "./data";
 import { v4 as uuidv4 } from "uuid";
 
-const Browse = async () => {
+const Browse = () => {
   return (
     <>
       <div className="h-10 w-full sm:h-20"></div>
