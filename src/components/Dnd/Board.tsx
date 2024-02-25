@@ -6,8 +6,6 @@ import Column from "./Column";
 import { DndContext } from "@dnd-kit/core";
 import { SortableContext } from "@dnd-kit/sortable";
 
-// random test comment
-
 interface BoardProps {
   id: string;
   title: string;
