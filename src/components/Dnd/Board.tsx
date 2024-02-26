@@ -7,6 +7,7 @@ import { DndContext } from "@dnd-kit/core";
 import { SortableContext } from "@dnd-kit/sortable";
 
 //
+//
 
 interface BoardProps {
   id: string;
